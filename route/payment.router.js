@@ -31,7 +31,7 @@ paymentrouter.post("/pay",async(req,res)=>
 
         let data=new Insta.PaymentData()
 
-        const  REDIRECT_URL="http://localhost:8080/payment/success"
+        const  REDIRECT_URL="https://dull-rose-spider-cuff.cyclic.app/payment/success"
         data.setRedirectUrl(REDIRECT_URL);
         data.send_email="True";
         data.purpose="Payment done through instmojo";
