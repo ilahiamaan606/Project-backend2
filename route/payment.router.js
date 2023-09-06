@@ -88,7 +88,7 @@ paymentrouter.get("/success",(req,res)=>
     //         // Redirect the user to payment complete page.
     //         return res.redirect('' );
     //     }
-    return res.redirect('https://stirring-lokum-bf0ef8.netlify.app/index.html' );
+    return res.redirect('https://jovial-seahorse-9f74cd.netlify.app/index.html' );
 //     res.send("payment sucessfull please check your mail for invoice and pdf")
 })
 
